@@ -1,0 +1,27 @@
+@import url("./typography.css");
+
+:root{
+  --offset-base-size:4px;
+  
+  --fs: 20px;
+  --fs-big: 25px;
+
+  --fw-regular: 400;
+  --fw-bold: 700;
+  
+  --ff: 'Roboto', sans-serif;
+
+  --color-1: #515151;
+  --color-2: #252525;
+  --color-3: #161616;
+  --color-4: #B283B9;
+  --color-5: #EFEFEF;
+}
+body {
+  margin: 0;
+  font-family: var(--ff);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
